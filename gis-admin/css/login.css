@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0px;
+	background-image: url(../images/login_bg.jpg);
+	background-repeat: repeat;
+}
+#batas-luar{
+	width: 660px;
+	margin-top: 200px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+	/*** Membuat bayangan di belakang box ***/
+	-moz-box-shadow:0px 0px 250px #fff;
+	-webkit-box-shadow:0px 0px 250px #fff;
+	box-shadow:250px #fff;
+
+}
+
+#login{
+	background-image: url(../images/login.png);
+	background-repeat: no-repeat;
+	height: 292px;
+	width: 660px;
+	-moz-box-shadow:0px 0px 10px #333;
+	-webkit-box-shadow:0px 0px 10px #333;
+	box-shadow: 10px #333;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
+
+#login-kiri{
+	width: 385px;
+	height: 262px;
+	float: left;
+	text-align: left;
+	padding-top: 30px;
+	padding-left: 25px;
+}
+
+#login-kanan{
+	width: 195px;
+	height: 262px;
+	float: left;
+	text-align: left;
+	padding-top: 30px;
+	padding-left: 35px;
+	font-family: "Arial";
+	font-size: 12px;
+	color: #fbfbfb;
+	padding-right: 20px;
+}
+
+#tabel{
+	margin-left: 55px;
+	margin-top: 20px;
+	font-family: "Arial";
+	font-weight: bold;
+	font-size: 14px;
+	color: #fbfbfb;
+}
+
+.text_login{
+	color: #b4b4b4;
+	font-family: "Arial";
+	font-weight: bold;
+	font-size: 12px;
+	background-image: url(../images/input.png);
+	background-repeat: no-repeat;
+	width: 178px;
+	height: 34px;
+	border: none;
+	padding-left: 10px;
+	outline-color: #d05f5f;
+}
+
+.login_btn{
+	background-image: url(../images/login_btn.png);
+	background-repeat: no-repeat;
+	width: 74px;
+	height: 26px;
+	border: none;
+	cursor: pointer;
+}
+
+.login_btn:hover{
+	background-image: url(../images/login_btn_ho.png);
+}
+
+.head1{
+	font-family: "Arial";
+	font-weight: bold;
+	font-size: 20px;
+	color: #fbfbfb;
+}
+
+.info{
+	font-family: "Arial";
+	font-style:italic;
+	font-size: 12px;
+	color: #d05f5f;
+}
+
+.normal{
+	clear: both;
+}
+

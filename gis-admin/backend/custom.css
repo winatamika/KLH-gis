@@ -1,0 +1,132 @@
+/* custom.css */
+/* ----------------------------- */
+body {
+	background-color:#efefef!important;
+	overflow:hidden!important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family:'Oswald',sans-serif!important;
+}
+
+header {
+	background:#fff;
+	height:70px;
+}
+
+.logo {
+	text-align:center;
+	z-index: 9999;
+}
+
+.toolbar {
+	margin-top:6em;
+	background:#fff;
+	border-radius:5px;
+	padding:20px;
+}
+
+div.toolbar h2 {
+	font-size:1.25em;
+	font-weight:300;
+	text-transform:uppercase;
+	margin:0;
+}
+
+.toolbar-atas {
+	position:relative;
+	display:block;
+	background:#fff;
+/* width: 300px; */
+/* height: 36px; */
+	clear:both;
+/* top: -65px; */
+/* left: 338px; */
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	padding:5px;
+}
+
+.toolbar-side {
+}
+
+div.toggle-open-close {
+	position:relative;
+	display:block;
+	top:-10px;
+	right:-210px;
+}
+
+.header-kanan div.print {
+	position:relative;
+	top:80px;
+	z-index:999;
+	text-align:right;
+}
+
+/* footer
+-------------------------------------------------- */
+.footer-note {
+	font-size:11px;
+	text-align:center;
+	font-family:'Lato',sans-serif;
+}
+
+div.container.footer-note p {
+	margin:22px 0 0;
+	color:#999;
+	text-shadow:0 1px 0 #fff;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+	position:relative;
+	min-height:100%;
+}
+
+body {
+/* Margin bottom by footer height */
+	margin-bottom:55px;
+}
+
+.footer {
+	position:absolute;
+	bottom:0;
+	width:100%;
+/* Set the fixed height of the footer here */
+	height:55px;
+	background:#fff url(images/strip-footer.png) repeat-x center center;
+}
+
+.map {
+	background:url(images/map.jpg) center center no-repeat;
+	min-height:509px;
+}
+
+/* BACKEND
+-------------------------------------------------- */
+div.toolbar.toolbar-side-backend {
+	position:relative;
+	top:-60px;
+	/* z-index:-99; */
+}
+
+.sidebar-backend-container {
+	position:relative;
+	top:2em;
+	margin-bottom: 2.5em;
+	clear:both;
+}
+
+.mainContent-backend {
+	margin-top:25px;
+	background:#fff;
+	padding:15px;
+	border-radius:5px;
+}
+
+
+
+.welcome {margin-bottom: 1em;}
+.username {color: #009966; margin-left: 10px;}

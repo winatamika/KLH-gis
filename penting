@@ -1,0 +1,39 @@
+*Front End
+index.php  :: iisialsisasi , berisi ttg pemanggilan struktur map, tombol2 , result luas,   
+peta.js ::  library googlemaps ttentang geojson
+geoJson.js :: konveersi data GeoJSON conversion #22
+js/jstree.min.js :: untuk konsep tree 
+drag.js :: dragable jquery http://css-tricks.com/snippets/jquery/draggable-without-jquery-ui/
+libraryes/ function.php :: fungsi2 web biasa
+libraryes/ koneksi.php  :: koneksi ke database 
+libraryes/ layer.php  :: konversi layer dari database 
+libraryes/  legend.php :: konversi legend dari database
+js/legend.php :: tampilkan data legend via javascript database yang diselect di js-treenya 
+js/rawjson.php  :: show data rawjson (yang berbentuk line itu)
+
+var
+	map
+	request_in_process
+	polygoncolor="",Strokecolor="",iconimage, feature_index=0
+	newpolygon 
+	newmarker
+	roadStyle
+	addressStyle
+	parcelStyle
+	drawingManager
+	newShape
+
+new 	
+	currentFeature_or_Features  new array
+	newpolyline new array
+	info window new google.maps.infowindows
+	all_overlays = []
+	
+function 
+	deleteallshape()
+	drop_satusatu(nama_marker, i)
+	init
+	clearmap
+	showfeauture
+	showmaps
+	
